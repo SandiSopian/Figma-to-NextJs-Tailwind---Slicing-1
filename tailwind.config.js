@@ -1,9 +1,15 @@
 /** @type {import('tailwindcss').Config} */
+const plugin = require("tailwindcss/plugin");
+
 module.exports = {
   mode: "jit",
   content: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Oswald", "ui-sans-serif", "system-ui"],
+        mono: ["Krona One", "ui-monospace"],
+      },
       colors: {
         green: {
           50: "#E9FBF0",
@@ -20,5 +26,15 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ addUtilities }) {
+      const utilities = {
+        ".bg-img": {
+          "background-image": "url(/bg.png)",
+        },
+      };
+
+      addUtilities(utilities);
+    }),
+  ],
 };
