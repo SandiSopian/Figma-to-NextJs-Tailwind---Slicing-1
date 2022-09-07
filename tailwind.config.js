@@ -32,6 +32,9 @@ module.exports = {
         ".bg-img": {
           "background-image": "url(/bg.png)",
         },
+        ".icon-benefit": {
+          "background-image": "",
+        },
       };
 
       addUtilities(utilities);
