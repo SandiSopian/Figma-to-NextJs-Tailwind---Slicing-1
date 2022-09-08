@@ -5,9 +5,9 @@ import Button2 from "./Button2";
 export default function HeroTeks() {
   return (
     <div className="w-7/12 ml-28">
-      <TitleSection className="text-green-400">Plants is a Friend</TitleSection>
+      <TitleSection className="text-green-400 leading-relaxed">Plants is a Friend</TitleSection>
 
-      <h2 className="text-3xl font-semibold mb-5">
+      <h2 className="text-3xl font-semibold mb-5 leading-relaxed">
         for save us <br />
         breathe tomorrow
       </h2>
@@ -26,7 +26,7 @@ export default function HeroTeks() {
         <div>
           <div>
             <h2 className="text-xl font-semibold text-green-400">100+</h2>
-            <p className="opacity-50">Sales Everyweek</p>
+            <p className="opacity-50 mb-6">Sales Everyweek</p>
           </div>
           <div>
             <h2 className="text-xl font-semibold text-green-400">250+</h2>

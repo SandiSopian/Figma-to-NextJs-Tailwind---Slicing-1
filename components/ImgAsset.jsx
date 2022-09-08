@@ -5,7 +5,7 @@ export default function ImgAsset({ image, imageClassName }) {
 
   return (
     <picture>
-      <img src={image} className={classnames(addImageClassName)} />
+      <img src={image} alt="Plants" className={classnames(addImageClassName)} />
     </picture>
   );
 }

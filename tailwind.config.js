@@ -7,8 +7,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Oswald", "ui-sans-serif", "system-ui"],
-        mono: ["Krona One", "ui-monospace"],
+        sans: ["Krona One", "ui-sans-serif", "system-ui"],
+        mono: ["Oswald", "ui-monospace"],
       },
       colors: {
         green: {

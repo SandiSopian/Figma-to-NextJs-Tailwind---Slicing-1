@@ -4,7 +4,7 @@ import Button from "../components/Button";
 
 export default function Navbar() {
   return (
-    <div className="flex items-center">
+    <section className="flex items-center text-sm">
       <div className="w-3/12 px-10">
         <Logo />
       </div>
@@ -16,6 +16,6 @@ export default function Navbar() {
       <div className="w-3/12">
         <Button>Order Now</Button>
       </div>
-    </div>
+    </section>
   );
 }

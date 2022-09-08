@@ -5,8 +5,8 @@ export default function HeroTeks() {
   return (
     <div className="w-7/12 ml-28 mt-12">
       <ParagraphSection>
-        <p>That give decorations on your garden with variants color</p>
-        <p>and shapes</p>
+        <p>That give decorations on your garden with variants</p>
+        <p>color and shapes</p>
       </ParagraphSection>
 
       <div className="flex justify-between mt-9 mr-10">

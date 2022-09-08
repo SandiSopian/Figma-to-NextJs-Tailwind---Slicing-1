@@ -3,6 +3,7 @@ import HeroSection from "../components/HeroSection";
 import OrderSection from "../components/OrderSection";
 import BenefitSection from "../components/BenefitSection";
 import GetAppSection from "../components/GetAppSection";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <OrderSection />
         <BenefitSection />
         <GetAppSection />
+        <Footer />
       </div>
     </>
   );
