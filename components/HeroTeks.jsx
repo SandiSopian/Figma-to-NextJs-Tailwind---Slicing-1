@@ -4,13 +4,13 @@ import Button2 from "./Button2";
 
 export default function HeroTeks() {
   return (
-    <div className="w-7/12 ml-28">
+    <div className="flex-grow w-7/12 md:w-10/12 lg:ml-28">
       <TitleSection className="text-green-400 leading-relaxed">Plants is a Friend</TitleSection>
 
-      <h2 className="text-3xl font-semibold mb-5 leading-relaxed">
+      <p className="text-sm md:text-xl font-semibold mb-5 leading-relaxed">
         for save us <br />
         breathe tomorrow
-      </h2>
+      </p>
 
       <ParagraphSection>
         <p>We know how important plants are to our existence and for </p>
@@ -18,19 +18,19 @@ export default function HeroTeks() {
         <p>together a number</p>
       </ParagraphSection>
 
-      <div className="flex justify-between mt-9 mr-10">
+      <div className="flex flex-wrap justify-between mt-9 xl:mr-10 ">
         <div>
           <Button2>Learn More</Button2>
         </div>
 
         <div>
           <div>
-            <h2 className="text-xl font-semibold text-green-400">100+</h2>
-            <p className="opacity-50 mb-6">Sales Everyweek</p>
+            <h2 className="mt-6 text-xs md:text-sm lg:text-lg font-semibold text-green-400">100+</h2>
+            <p className="text-xxs md:text-xs lg:text-sm opacity-50 mb-6">Sales Everyweek</p>
           </div>
           <div>
-            <h2 className="text-xl font-semibold text-green-400">250+</h2>
-            <p className="opacity-50">Awesome Collections</p>
+            <h2 className="mt-6 text-xs md:text-sm lg:text-lg  font-semibold text-green-400">250+</h2>
+            <p className="text-xxs md:text-xs lg:text-sm  opacity-50">Awesome Collections</p>
           </div>
         </div>
       </div>

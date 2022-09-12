@@ -4,7 +4,7 @@ export default function Logo({ logoClassName }) {
   const addLogoClassName = logoClassName ? ` ${logoClassName}` : "";
 
   return (
-    <div className="w-full w-16">
+    <div className="w-full w-16 -ml-10">
       <img src="/logo.png" alt="logo" className={classnames(addLogoClassName)} />
     </div>
   );

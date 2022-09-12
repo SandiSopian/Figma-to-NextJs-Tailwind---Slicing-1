@@ -3,10 +3,10 @@ import ImgAsset from "../components/ImgAsset";
 
 export default function HeroSection() {
   return (
-    <section className="flex items-right mt-12">
+    <section className="flex flex-wrap-reverse sm:flex-nowrap items-right mt-12">
       <HeroTeks />
-      <div className="bg-img -mt-32 rounded-bl-[70px]">
-        <ImgAsset image="/img7.png" imageClassName="max-w-[70%] ml-16 mt-32 mb-20" />
+      <div className="flex-grow bg-img z-0 -mt-32 w-7/12 sm:rounded-bl-[70px]">
+        <ImgAsset image="/img7.png" imageClassName="max-w-[150%] sm:max-w-[130%] lg:max-w-[100%] -ml-12 lg:ml-0 mt-36 mb-20" />
       </div>
     </section>
   );

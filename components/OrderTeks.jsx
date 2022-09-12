@@ -3,13 +3,13 @@ import ParagraphSection from "./ParagraphSection";
 
 export default function HeroTeks() {
   return (
-    <div className="w-7/12 ml-28 mt-12">
+    <div className="sm:w-7/12 lg:ml-28 md:ml-0 mt-12 md:-mt-10">
       <ParagraphSection>
         <p>That give decorations on your garden with variants</p>
         <p>color and shapes</p>
       </ParagraphSection>
 
-      <div className="flex justify-between mt-9 mr-10">
+      <div className="flex justify-between mt-9 md:mt-14 mr-10">
         <Button>Order Now</Button>
       </div>
     </div>
