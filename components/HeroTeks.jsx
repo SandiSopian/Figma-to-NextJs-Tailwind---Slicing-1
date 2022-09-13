@@ -5,7 +5,7 @@ import Button2 from "./Button2";
 export default function HeroTeks() {
   return (
     <div className="flex-grow w-7/12 md:w-10/12 lg:ml-28">
-      <TitleSection className="text-green-400 leading-relaxed">Plants is a Friend</TitleSection>
+      <TitleSection className="-mt-12 text-green-400 leading-relaxed">Plants is a Friend</TitleSection>
 
       <p className="text-sm md:text-xl font-semibold mb-5 leading-relaxed">
         for save us <br />

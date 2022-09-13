@@ -11,18 +11,18 @@ export default function Navbar() {
     <>
       <section className="flex items-center text-sm mt-8">
         <div className="w-3/12 md:w-3/12 px-10">
-          <Logo />
+          <Logo logoClassName="-ml-16 sm:ml-0" />
         </div>
 
-        <div className="w-6/12 hidden md:block">
+        <div className="w-6/12 hidden sm:block">
           <Nav dir="horizontal" />
         </div>
 
-        <div className="w-3/12 md:w-3/12 md:ml-12 hidden md:block">
+        <div className="w-3/12 md:w-3/12 md:ml-12 hidden sm:block">
           <Button>Order Now</Button>
         </div>
 
-        <div className="w-9/12 md:hidden text-right mb-8 ">
+        <div className="w-9/12 sm:hidden text-right mb-8">
           <img src="/menu.svg" className="inline-block" onClick={() => setOffcanvas(true)} />
         </div>
       </section>

@@ -3,7 +3,7 @@ import classnames from "classnames";
 
 export default function Nav({ dir }) {
   const dirs = {
-    horizontal: "justify-center lg:space-x-20 md:space-x-10 py-8",
+    horizontal: "justify-center mr-8 space-x-4 md:space-x-10 lg:space-x-20 py-8",
     vertical: "flex-col space-y-6",
   };
 
