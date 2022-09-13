@@ -16,8 +16,12 @@ export default function Footer() {
         <p className="uppercase mb-6 text-xs cursor-pointer lg:text-lg hover:opacity-50">Feature</p>
       </div>
       <div className="sm:w-4/12 md:w-3/12 lg:text-sm md:text-xs sm:text-xxs">
-        <p className="uppercase mb-6 text-xs cursor-pointer lg:text-lg hover:opacity-50 ">Policy Library</p>
-        <p className="uppercase mb-6 text-xs cursor-pointer lg:text-lg hover:opacity-50">Site Map</p>
+        <Link href="/#hero">
+          <p className="uppercase mb-6 text-xs cursor-pointer lg:text-lg hover:opacity-50 ">Home</p>
+        </Link>
+        <Link href="/#download">
+          <p className="uppercase mb-6 text-xs cursor-pointer lg:text-lg hover:opacity-50">Download</p>
+        </Link>
         <p className="uppercase mb-6 text-xs cursor-pointer lg:text-lg hover:opacity-50">Blog</p>
       </div>
       <div className="sm:w-3/12 md:w-2/12 xl:ml-12 lg:text-sm md:text-xs sm:text-xxs">
