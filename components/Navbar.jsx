@@ -27,7 +27,7 @@ export default function Navbar() {
         </div>
       </section>
 
-      <div className={classnames("fixed bg-white z-10 top-0 h-full w-full transition-all p-10 md:hidden", offcanvas ? "right-0" : "-right-full")}>
+      <div className={classnames("fixed bg-white z-30 top-0 h-full w-full transition-all p-10 md:hidden", offcanvas ? "right-0" : "-right-full")}>
         <img src="/x.svg" className="absolute top-8 right-16 w-8 hover:cursor-pointer" onClick={() => setOffcanvas(false)} />
         <Nav dir="vertical" />
       </div>
