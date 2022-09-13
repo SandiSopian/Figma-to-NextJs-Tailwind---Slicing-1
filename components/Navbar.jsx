@@ -9,9 +9,9 @@ export default function Navbar() {
 
   return (
     <>
-      <section className="flex items-center text-sm mt-8">
+      <section className="flex sticky top-0 items-center text-sm mt-8 backdrop-filter backdrop-blur-lg border-b border-gray-200 z-20">
         <div className="w-3/12 md:w-3/12 px-10">
-          <Logo logoClassName="-ml-16 sm:ml-0" />
+          <Logo logoClassName="-ml-16 md:-ml-10" />
         </div>
 
         <div className="w-6/12 hidden sm:block">
@@ -23,12 +23,12 @@ export default function Navbar() {
         </div>
 
         <div className="w-9/12 sm:hidden text-right mb-8">
-          <img src="/menu.svg" className="inline-block" onClick={() => setOffcanvas(true)} />
+          <img src="/menu.svg" className="inline-block hover:cursor-pointer" onClick={() => setOffcanvas(true)} />
         </div>
       </section>
 
       <div className={classnames("fixed bg-white z-10 top-0 h-full w-full transition-all p-10 md:hidden", offcanvas ? "right-0" : "-right-full")}>
-        <img src="/x.svg" className="absolute top-8 right-16 w-8" onClick={() => setOffcanvas(false)} />
+        <img src="/x.svg" className="absolute top-8 right-16 w-8 hover:cursor-pointer" onClick={() => setOffcanvas(false)} />
         <Nav dir="vertical" />
       </div>
     </>

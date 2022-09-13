@@ -4,7 +4,7 @@ import ParagraphSection from "../components/ParagraphSection";
 
 export default function BenefitSection() {
   return (
-    <section className="flex flex-col sm:flex-row items-right mt-24 sm:mt-10">
+    <section className="flex flex-col sm:flex-row items-right mt-24 sm:mt-10" id="benefit">
       <div className="sm:w-6/12 md:w-5/12 bg-img rounded-lg bg-full md:bg-none">
         <div>
           <ImgAsset image="/img3.png" imageClassName="sm:max-w-[80%] md:max-w-[110%] md:-ml-10 sm:ml-2 mb-6 sm:mb-20 lg:mt-0 md:mt-36 sm:mt-16" />
